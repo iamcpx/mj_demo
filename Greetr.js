@@ -1,7 +1,7 @@
 (function(global, $) {
     
-    var Greetr = function(firstName, lastName, language) {
-        return new Greetr.init(firstName, lastName, language);   
+    var Greetr = function(firstName, lastName, lang) {
+        return new Greetr.init(firstName, lastName, lang);
     }
     
     var supportedLangs = ['en', 'es'];
