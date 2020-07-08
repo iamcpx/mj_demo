@@ -1,7 +1,7 @@
-function greet(whattosay) {
+function greet(lang) {
 
    return function(name) {
-       console.log(whattosay + ' ' + name);
+       console.log(lang + ' ' + name);
    }
 
 }

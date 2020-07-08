@@ -1,6 +1,6 @@
 function greet(firstname, lastname, language) {
  
-    language = language || 'en';
+    language = language || 'es';
     
     if (arguments.length === 0) {
         console.log('Missing parameters!');
